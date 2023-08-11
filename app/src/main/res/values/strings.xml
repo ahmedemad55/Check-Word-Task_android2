@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Task_android22</string>
+    <string name="correct_textview1">Welcome To Check Word</string>
+    <string name="correct_textview2">Text To Correct</string>
+    <string name="correct_edittext_hint">Enter Your Text</string>
+    <string name="correct_btn1">Show</string>
+    <string name="correct_btn2">Check</string>
+    <string name="correct_btn3">Next</string>
+    <string name="correct_textview4">Correct Congratulations...</string>
+
+</resources>

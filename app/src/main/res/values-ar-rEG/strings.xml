@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Task_android22</string>
+
+    <string name="correct_textview1">مرحبا بك لكي تختبر الكلمه</string>
+    <string name="correct_textview2">صحح هذه الكلمه</string>
+    <string name="correct_edittext_hint">ادخل الكلمه</string>
+    <string name="correct_btn1">اظهر</string>
+    <string name="correct_btn2">اختبر</string>
+    <string name="correct_btn3">ما بعدها</string>
+    <string name="correct_textview4">صحيح                تهانيناا...</string>
+</resources>

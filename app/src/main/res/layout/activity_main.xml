@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/correct_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/correct_imageview"
+            android:layout_width="match_parent"
+            android:background="@drawable/correct_imageview"
+            app:srcCompat="@drawable/correct_button"
+            android:layout_height="136dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/correct_textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="15dp"
+            android:text="@string/correct_textview1"
+            android:textColor="#7A9FC3"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <TextView
+            android:id="@+id/correct_textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/correct_textview2"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="158dp" />
+
+        <EditText
+            android:id="@+id/correct_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="@string/correct_edittext_hint"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:textSize="25sp"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/correct_btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_weight="2"
+                android:background="@drawable/correct_btn1"
+                android:textColor="#FFFFFFFF"
+
+                android:text="@string/correct_btn1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/correct_btn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_weight="10"
+                android:text="@string/correct_btn2"
+                android:background="@drawable/correct_btn2"
+                android:textColor="#FFFFFFFF"
+
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/correct_btn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/correct_btn1"
+                android:textColor="#FFFFFFFF"
+                android:text="@string/correct_btn3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/correct_textview4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="-40dp"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                tools:text="@string/correct_textview4" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
