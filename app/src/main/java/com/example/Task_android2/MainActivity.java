@@ -8,7 +8,6 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import com.example.task_android2.R;
 
 public class MainActivity extends AppCompatActivity {
@@ -65,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 nextWord();
             }
-        });
+        } );
 
 
     }
